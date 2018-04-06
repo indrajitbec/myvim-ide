@@ -6,7 +6,6 @@ My .vimrc file for using VIM as an IDE
 2. cat myvim-ide/vimrc > ~/.vimrc
 3. git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 4. sudo apt-get install exuberant-ctags
-5. echo "set encoding=utf-8 nobomb" >> ~/.vimrc
 6. vim +PluginInstall +qall
 7. install cscope
 
