@@ -16,6 +16,8 @@ set cindent           " I indent my code myself.
 set ic
 
 set mouse=a
+:set tags=./tags;
+:let g:easytags_dynamic_files = 1
 
 filetype off 
 
@@ -49,6 +51,7 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'hari-rangarajan/CCTree'
 Plugin 'brookhong/cscope.vim'
+Plugin 'skywind3000/asyncrun.vim'
 
 call vundle#end()  
 "-------------- PLUGINS END --------------------
