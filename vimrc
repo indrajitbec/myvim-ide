@@ -24,6 +24,9 @@ filetype off
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 
+" show tab space as >
+set list
+set listchars=tab:>-
 
 
 "-------------- PLUGINS STARTS -----------------
